@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Color de fondo */
+    color: #006400; /* Color de texto */
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.gif-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('webb.gif') center/cover no-repeat; /* Reemplaza 'tu_gif.gif' con la ruta de tu GIF */
+    z-index: -1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px dashed #83d6b4; /* Borde sólido de 2px de ancho y color gris claro */
+    padding: 20px; 
+    background-color: rgba(27, 94, 42, 0.795); /* Fondo semi-transparente (blanco con 50% de opacidad) */
+    padding: 20px;
+    
+}
+
+h3 {
+    font-style: italic; /* Estilo de letra en cursiva */
+    color: #e3b8fc; /* Color de texto */
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+#talabarteria img,
+#orfebreria img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+.ta{
+    font-size: 60px;
+    text-align: center;
+     color: #cbd7ff;
+
+}
+p, h1, h2, h3, video {
+    z-index: 1; /* Asegura que estos elementos estén por encima del GIF */
+}
+  .content {
+    overflow: hidden; /* Esto limpiará el float */
+  }
+  
+
+
+.of{
+    float: right; /* Hace que la imagen flote a la derecha */
+    margin-left: 1px; /* Margen izquierdo para separar la imagen del texto */
+    width: 300px; /* Establece un ancho específico para la imagen */
+    
+}
+  img{
+    width: 200px; /* Establece un ancho específico para la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    border: 5px solid rgb(136, 175, 104);
+
+  }
+.contenedor {
+    display: flex; /* Contenedor flexible */
+    justify-content: flex-end; /* Alinea los elementos al final del contenedor (derecha) */
+    margin-bottom: 20px; /* Margen inferior para separar el video del contenedor de imágenes */
+    
+}
+
+.contenedor img {
+    margin-left: 10px; /* Ajustar el margen izquierdo entre las imágenes */
+    margin-bottom: 20px;
+}
+.parrafo::first-letter {
+    font-size: 300%; /* Tamaño de la primera letra */
+    font-weight: bold; /* Estilo negrita */
+    color: rgb(218, 204, 8); /* Color de la primera letra */
+    font-style: italic;
+}
+
